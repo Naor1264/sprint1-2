@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>MineSweeperGame</title>
+    <link rel="stylesheet" href="css/main.css">
+    
+</head>
+
+<body onload="initGame()">
+    <h1>MineSweeperGame</h1>
+    <span class="lives">LIVES:</span>
+    <div class="context">
+    <button onclick="changeLevel(this)">Easy</button>
+    <button onclick="changeLevel(this)">Medium</button>
+    <button onclick="changeLevel(this)">Hard</button>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <span>TIME:</span>
+    <span class="time">0.000</span>
+    
+    <body oncontextmenu="return false;"></body>
+</div>
+<button onclick="onRestart()">RESTART</button>
+<br>
+<button class="flag-button">🚩</button>
+
+</span>
+</div>
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
